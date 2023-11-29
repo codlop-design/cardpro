@@ -7,15 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Page Title -->
-  <title>Elmscode</title>
+  <title>cardpro</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="css/bootstrap-icons.css" rel="stylesheet" media="screen">
   <link href="css/swiper.min.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet" media="screen">
+  <link href="css/responsive.css" rel="stylesheet" media="screen">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar-scrollspy" data-bs-offset="0">
+<body>
   <!-- Preloader starts -->
   <div class="preloader">
     <span class="loader">
@@ -31,16 +32,21 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo" alt=""></a>
         </div>
-        <a href="#" class="lang">
-          <i class="bi bi-globe"></i>
-          EN
-        </a>
+        <div class="left-nav">
+          <a href="#" class="lang">
+            <i class="bi bi-globe"></i>
+            EN
+          </a>
+          <a href="#" class="cart-drop">
+            <span>0</span>
+            <i class="bi bi-cart"></i>
+          </a>
+        </div>
       </div>
     </nav>
   </header>
-  <!-- Header Section Ends-->
 
-  <!-- Banner Section Starts -->
+
   <section class="banner" id="home">
     <div class="container">
       <div class="row">
@@ -78,36 +84,52 @@
         <h2>البكجات المتوفرة</h2>
       </div>
       <div class="flex-package">
-        <a href="https://wa.me/966551096646" target="_blank" class="wow fadeInUp" data-wow-delay="0.4s">
-          <img src="images/package.png" alt="">
+        <div class="product wow fadeInUp" data-wow-delay="0.4s">
+          <a href="#"><img src="images/package.png" alt=""></a>
           <div class="prices">
-            <h6>1 x بطاقة تقييم ذكية</h6>
+            <a href="#">1 x بطاقة تقييم ذكية</a>
             <p><s>قبل 300 ريال</s> - <b>150 ريال</b></p>
+            <button class="add-cart">
+              <i class="bi bi-cart"></i>
+              اضف للسلة
+            </button>
           </div>
-        </a>
-        <a href="https://wa.me/966551096646" target="_blank" class="wow fadeInUp" data-wow-delay="0.6s">
-          <img src="images/package.png" alt="">
+        </div>
+        <div class="product wow fadeInUp" data-wow-delay="0.6s">
+          <a href="#"><img src="images/package.png" alt=""></a>
           <div class="prices">
-            <h6>5 x بطاقة تقييم ذكية</h6>
+            <a href="#">5 x بطاقة تقييم ذكية</a>
             <p><s>قبل 1,305 ريال</s> - <b>650 ريال</b></p>
+            <button class="add-cart">
+              <i class="bi bi-cart"></i>
+              اضف للسلة
+            </button>
           </div>
-        </a>
-        <a href="https://wa.me/966551096646" target="_blank" class="wow fadeInUp" data-wow-delay="0.8s">
-          <img src="images/package.png" alt="">
+        </div>
+        <div class="product wow fadeInUp" data-wow-delay="0.8s">
+          <a href="#"><img src="images/package.png" alt=""></a>
           <div class="prices">
-            <h6>10 x بطاقة تقييم ذكية</h6>
+            <a href="#">10 x بطاقة تقييم ذكية</a>
             <p><s>قبل 2,010 ريال</s> - <b>1000 ريال</b></p>
+            <button class="add-cart">
+              <i class="bi bi-cart"></i>
+              اضف للسلة
+            </button>
           </div>
-        </a>
-        <a href="https://wa.me/966551096646" target="_blank" class="wow fadeInUp" data-wow-delay="1s">
-          <img src="images/package.png" alt="">
+        </div>
+        <div class="product wow fadeInUp" data-wow-delay="1s">
+          <a href="#"><img src="images/package.png" alt=""></a>
           <div class="prices">
-            <h6>25 x بطاقة تقييم ذكية</h6>
+            <a href="#">25 x بطاقة تقييم ذكية</a>
             <p><s>قبل 4,050 ريال</s> - <b>2000 ريال</b></p>
+            <button class="add-cart">
+              <i class="bi bi-cart"></i>
+              اضف للسلة
+            </button>
           </div>
-        </a>
+        </div>
       </div>
-      <a href="https://wa.me/966551096646" target="_blank" class="btn-booknow">تواصل معنا الان</a>
+      <!-- <a href="#" target="_blank" class="btn-booknow">عرض كل المنتجات</a> -->
     </div>
   </section>
   <!-- About us section ends -->
@@ -347,7 +369,9 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="testimonial-single">
-                  <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق</p>
+                  <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث
+                    يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق
+                  </p>
                   <div class="ratting">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -360,7 +384,9 @@
               </div>
               <div class="swiper-slide">
                 <div class="testimonial-single">
-                  <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق</p>
+                  <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث
+                    يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق
+                  </p>
                   <div class="ratting">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -373,7 +399,9 @@
               </div>
               <div class="swiper-slide">
                 <div class="testimonial-single">
-                  <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق</p>
+                  <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث
+                    يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق
+                  </p>
                   <div class="ratting">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -386,7 +414,9 @@
               </div>
               <div class="swiper-slide">
                 <div class="testimonial-single">
-                  <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق</p>
+                  <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث
+                    يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق
+                  </p>
                   <div class="ratting">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -432,8 +462,7 @@
                   <input type="email" name="email" class="form-control" placeholder="البريد الالكتروني">
                 </div>
                 <div class="form-group mb-3 col-md-12 col-sm-12">
-                  <textarea rows="6" name="message" class="form-control"
-                    placeholder="الرسالة"></textarea>
+                  <textarea rows="6" name="message" class="form-control" placeholder="الرسالة"></textarea>
                 </div>
                 <div class="col-md-12 col-sm-12">
                   <button type="submit" class="btn-contact" title="">ارسال</button>
@@ -497,7 +526,7 @@
           </div>
 
           <div class="footer-siteinfo wow fadeInUp" data-wow-delay="1.2s">
-            <p>Copyright &copy; 2023, ElmsCode by codlop</p>
+            <p>Copyright &copy; 2023, cardpro by codlop</p>
           </div>
         </div>
       </div>

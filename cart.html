@@ -30,14 +30,17 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-scrollspy main-menu">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo" alt=""></a>
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
         </div>
         <div class="left-nav">
-          <a href="#" class="lang">
+          <a href="#" class="btn lang">
             <i class="bi bi-globe"></i>
             EN
           </a>
-          <a href="#" class="cart-drop">
+          <a href="login.html" class=" btn login-btn">
+            تسجيل الدخول
+          </a>
+          <a href="#" class="btn cart-drop">
             <span>0</span>
             <i class="bi bi-cart"></i>
           </a>
@@ -47,39 +50,115 @@
   </header>
 
 
-  <section class="breadcrumb-sec">
+  <section class="pd-page">
     <div class="container">
-      <div class="section-title wow fadeInUp">
-        <h2>السلة</h2>
-      </div>
+      <h3 class="title-page">السلة</h3>
+      <div class="cart-sec">
+        <div class="cart-dts">
+          <ul>
+            <li>
+              <a href="product-details.html" class="p-img">
+                <img src="images/package.png" alt="">
+              </a>
+              <div class="p-dts">
+                <h4>1 x بطاقة تقييم ذكية</h4>
+                <div class="prodcut-price">
+                  <p class="new-price">150 <em>ر.س</em></p>
+                  <p class="old-price">
+                    <b>300 <em>ر.س</em></b>
+                    <span>خصم<em>50%</em></span>
+                  </p>
+                </div>
+                <div class="btm-part">
+                  <div class="flex-box">
+                    <h4 class="t-p">الكمية:</h4>
+                    <div class="p-quentity">
+                      <select name="" class="form-select">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="flex-box">
+                    <a href="#" class="delete-from-cart">
+                      <i class="bi bi-trash"></i>
+                      حذف من السلة
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="product-details.html" class="p-img">
+                <img src="images/package.png" alt="">
+              </a>
+              <div class="p-dts">
+                <h4>5 x بطاقة تقييم ذكية</h4>
+                <div class="prodcut-price">
+                  <p class="new-price">650 <em>ر.س</em></p>
+                  <p class="old-price">
+                    <b>1,305 <em>ر.س</em></b>
+                    <span>خصم<em>50%</em></span>
+                  </p>
+                </div>
+                <div class="btm-part">
+                  <div class="flex-box">
+                    <h4 class="t-p">الكمية:</h4>
+                    <div class="p-quentity">
+                      <select name="" class="form-select">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="flex-box">
+                    <a href="#" class="delete-from-cart">
+                      <i class="bi bi-trash"></i>
+                      حذف من السلة
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
 
-    </div>
-  </section>
-
-  <section class="brands">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-title wow fadeInUp">
-            <h2>شركات تثق بنا</h2>
+          </ul>
+        </div>
+        <div class="cart-total">
+          <div class="totals-div">
+            <div class="coupon">
+              <input type="text" placeholder="ادخل كود الخصم">
+              <button type="button">تطبيق</button>
+            </div>
+            <h5>ملخص الطلب</h5>
+            <h6>
+              المجموع الفرعي
+              <p>6,098 <span>ر.س</span></p>
+            </h6>
+            <h6 class="discount-coupon">
+              كوبون
+              <p>-50 <span>ر.س</span></p>
+            </h6>
+            <h6>
+              رسوم التوصيل
+              <p>--</p>
+            </h6>
+            <h6 class="total-price">
+              إجمالي المبلغ
+              <p>6,048 <span>ر.س</span></p>
+            </h6>
+            <p class="tax-t">شامل ضريبة القيمة المضافة</p>
+            <a href="checkout.html" class="continue-checkout">تابع عملية الشراء</a>
+          </div>
+          <div class="CartPage__disclaimer">
+            دفع آمن , استرجاع سهل , منتجات أصلية 100٪
           </div>
         </div>
-      </div>
-      <div class="flax-brands wow fadeInUp" data-wow-delay="0.4s">
-        <img src="images/brands/1.jpg" alt="">
-        <img src="images/brands/2.png" alt="">
-        <img src="images/brands/3.png" alt="">
-        <img src="images/brands/4.png" alt="">
-        <img src="images/brands/5.png" alt="">
-        <img src="images/brands/6.jpg" alt="">
-        <img src="images/brands/7.jpg" alt="">
-        <img src="images/brands/8.png" alt="">
-        <img src="images/brands/9.jpg" alt="">
-        <img src="images/brands/10.png" alt="">
-        <img src="images/brands/11.png" alt="">
-        <img src="images/brands/12.jpg" alt="">
-        <img src="images/brands/13.jpg" alt="">
-        <img src="images/brands/14.png" alt="">
       </div>
     </div>
   </section>
@@ -107,7 +186,7 @@
           </div>
 
           <div class="footer-siteinfo wow fadeInUp" data-wow-delay="1.2s">
-            <p>Copyright &copy; 2023, cardpro by codlop</p>
+            <p>Copyright &copy; 2023, cardpro by <a href="https://codlop.sa/ar" target="_blank">codlop</a></p>
           </div>
         </div>
       </div>

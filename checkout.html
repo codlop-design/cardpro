@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Page Title -->
+  <title>cardpro</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/bootstrap-icons.css" rel="stylesheet" media="screen">
+  <link href="css/swiper.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet" media="screen">
+  <link href="css/responsive.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+  <!-- Preloader starts -->
+  <div class="preloader">
+    <span class="loader">
+      <span class="loader-inner"></span>
+    </span>
+  </div>
+  <!-- Preloader Ends -->
+
+  <!-- Header Section Starts-->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scrollspy main-menu">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
+        </div>
+        <div class="left-nav">
+          <a href="#" class="btn lang">
+            <i class="bi bi-globe"></i>
+            EN
+          </a>
+          <a href="login.html" class=" btn login-btn">
+            تسجيل الدخول
+          </a>
+          <a href="#" class="btn cart-drop">
+            <span>0</span>
+            <i class="bi bi-cart"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="pd-page">
+    <div class="container">
+      <h3 class="title-page">اتمام الدفع</h3>
+      <div class="checkout-parts">
+        <div class="right-part">
+          <ul class="list-steps">
+            <li class="form-step">
+              <h3>المعلومات المطلوبة</h3>
+              <div class="row">
+                <div class="mb-3 col-md-6 col-sm-12">
+                  <label for="">الإسم الأول <abbr class="required" title="مطلوب"
+                      data-no-translation-title="">*</abbr></label>
+                  <input type="text" placeholder="" class="form-control">
+                </div>
+                <div class="mb-3 col-md-6 col-sm-12">
+                  <label for="">الإسم الأخير <abbr class="required" title="مطلوب"
+                      data-no-translation-title="">*</abbr></label>
+                  <input type="text" placeholder="" class="form-control">
+                </div>
+                <div class="mb-3 col-sm-12">
+                  <label for="">الهاتف <abbr class="required" title="مطلوب"
+                      data-no-translation-title="">*</abbr></label>
+                  <div class="flex-input">
+                    <input type="number" placeholder="" class="form-control">
+                    <span>+966</span>
+                  </div>
+                </div>
+                <div class="mb-3 col-sm-12">
+                  <label for="">البريد الالكتروني <abbr class="required" title="مطلوب"
+                      data-no-translation-title="">*</abbr></label>
+                  <input type="email" placeholder="" class="form-control">
+                </div>
+                <div class="mb-3 col-sm-12">
+                  <label for="">اسم الشركة ( اختياري )</label>
+                  <input type="text" placeholder="" class="form-control">
+                </div>
+                <div class="mb-3 col-sm-12">
+                  <label for="">الرقم الضريبي ( اختياري )</label>
+                  <input type="text" placeholder="" class="form-control">
+                </div>
+                <div class="mb-3 col-sm-12">
+                  <label for="">الدولة / المنطقة <abbr class="required" title="مطلوب"
+                      data-no-translation-title="">*</abbr></label>
+                  <input type="text" placeholder="المملكة العربية السعودية" class="form-control" disabled>
+                </div>
+                <div class="mb-3 col-sm-12">
+                  <label for="">عنوان الشارع / الحي <abbr class="required" title="مطلوب"
+                      data-no-translation-title="">*</abbr></label>
+                  <input type="text" placeholder="" class="form-control">
+                </div>
+              </div>
+              <div class="map-part">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1523.876696321082!2d46.676108711152956!3d24.712800068915563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1701253505729!5m2!1sar!2seg"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <button class="current-location-btn">احصل على موقعك الحالي</button>
+              </div>
+              <button class="btn-booknow">
+                التالي
+              </button>
+            </li>
+            <li class="choose-payment">
+              <h3>اختر طريقة الدفع</h3>
+              <div class="list-payment">
+                <div class="checkout-tab">
+                  <input type="radio" name="radio-pay" id="mada">
+                  <label for="mada">
+                    <span></span>
+                    <img src="images/mada.png" alt="">
+                  </label>
+                </div>
+                <div class="checkout-tab">
+                  <input type="radio" name="radio-pay" id="visa-and-mastercard">
+                  <label for="visa-and-mastercard">
+                    <span></span>
+                    <img src="images/visa-and-mastercard.png" alt="">
+                  </label>
+                </div>
+                <div class="checkout-tab">
+                  <input type="radio" name="radio-pay" id="Stc_pay">
+                  <label for="Stc_pay">
+                    <span></span>
+                    <img src="images/Stc_pay.png" alt="">
+                  </label>
+                </div>
+                <div class="checkout-tab">
+                  <input type="radio" name="radio-pay" id="Apple_Pay">
+                  <label for="Apple_Pay">
+                    <span></span>
+                    <img src="images/Apple_Pay.png" alt="">
+                  </label>
+                </div>
+              </div>
+              <button class="btn-booknow">
+                ادفع الآن
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="left-part">
+          <ul class="products-list">
+            <li>
+              <a href="product-details.html">
+                <img src="images/package.png" alt="">
+              </a>
+              <div class="dts-prd">
+                <h4>1 x بطاقة تقييم ذكية</h4>
+                <div class="price-qu">
+                  <p>150 <em>ر.س</em></p>
+                  <h5 class="qu-checkout">
+                    الكمية: <span>1</span>
+                  </h5>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="product-details.html">
+                <img src="images/package.png" alt="">
+              </a>
+              <div class="dts-prd">
+                <h4>1 x بطاقة تقييم ذكية</h4>
+                <div class="price-qu">
+                  <p>150 <em>ر.س</em></p>
+                  <h5 class="qu-checkout">
+                    الكمية: <span>1</span>
+                  </h5>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="totals-div">
+            <div class="coupon">
+              <input type="text" placeholder="ادخل كود الخصم">
+              <button type="button" aria-label="btn">تطبيق</button>
+            </div>
+            <h5>ملخص الطلب</h5>
+            <h6>
+              المجموع الفرعي
+              <p>6,098 <span>ر.س</span></p>
+            </h6>
+            <h6 class="discount-coupon">
+              كوبون
+              <p>-50 <span>ر.س</span></p>
+            </h6>
+            <h6>
+              رسوم التوصيل
+              <p>--</p>
+            </h6>
+            <h6 class="total-price">
+              إجمالي المبلغ
+              <p>6,098 <span>ر.س</span></p>
+            </h6>
+            <p class="tax-t">شامل ضريبة القيمة المضافة</p>
+            <div class="line"></div>
+            <p class="p-confirm">
+              <i class="bi bi-info-circle"></i>
+              <span>
+                سيتم استخدام بياناتك الشخصية لمعالجة طلبك، ودعم تجربتك، ولأغراض أخرى تم توضيحها في <a href="#">سياسة
+                  الخصوصية</a> لدينا.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section starts -->
+  <footer>
+    <div class="container">
+      <div class="number-people">
+        <h4>اشخاص قاموا بشراء المنتج</h4>
+        <div class="count-box" count="1500">
+          <p>0</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-logo wow fadeInUp" data-wow-delay="0.4s">
+            <img src="images/logo.png" alt="" />
+          </div>
+
+          <div class="footer-social">
+            <a href="#" class=" wow fadeInUp" data-wow-delay="0.4s"><i class="bi bi-facebook"></i></a>
+            <a href="#" class=" wow fadeInUp" data-wow-delay="0.6s"><i class="bi bi-instagram"></i></a>
+            <a href="#" class=" wow fadeInUp" data-wow-delay="0.8s"><i class="bi bi-youtube"></i></a>
+            <a href="#" class=" wow fadeInUp" data-wow-delay="1s"><i class="bi bi-twitter-x"></i></a>
+          </div>
+
+          <div class="footer-siteinfo wow fadeInUp" data-wow-delay="1.2s">
+            <p>Copyright &copy; 2023, cardpro by <a href="https://codlop.sa/ar" target="_blank">codlop</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer section ends -->
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/countdown.js"></script>
+  <script src="js/function.js"></script>
+</body>
+
+</html>

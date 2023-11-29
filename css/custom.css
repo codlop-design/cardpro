@@ -390,7 +390,7 @@ nav.navbar .navbar-toggler:focus {
 
 .feature-single h4 {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .feature-single p {
@@ -409,7 +409,9 @@ nav.navbar .navbar-toggler:focus {
   color: #181a20;
 }
 
-.related-product .section-title p {}
+.related-product .section-title {
+  background: url(../images/blue-divider.png) no-repeat bottom center;
+}
 
 .related-single {
   margin-bottom: 80px;
@@ -850,7 +852,6 @@ footer {
   gap: 16px;
   font-size: 19px;
   box-shadow: unset !important;
-  font-family: 'Bahij_SemiBold';
 }
 
 .accordion-button span {
@@ -1041,7 +1042,8 @@ footer {
 }
 
 .number-people .count-box {
-  font-size: 30px;
+  font-size: 29px;
+  font-family: 'Bahij_SemiBold';
   color: #ea6f53;
 }
 
@@ -1059,8 +1061,6 @@ footer {
   line-height: 40px;
   background: #181a20;
   border-radius: 5px;
-  font-size: 29px;
-  font-family: 'Bahij_SemiBold';
 }
 
 .cart-sec {

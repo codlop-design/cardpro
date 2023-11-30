@@ -316,6 +316,7 @@ nav.navbar .navbar-toggler:focus {
   transition: all 0.3s ease-in-out;
   width: max-content;
   display: block;
+  font-family: 'Bahij_SemiBold';
 }
 
 .btn-booknow:hover {
@@ -886,7 +887,7 @@ footer {
 
 .accordion-body {
   padding: 2px 72px 16px;
-  color: #e1ecfd96;
+  color: #d0d8e396;
   font-size: 18px;
 }
 
@@ -1111,6 +1112,7 @@ footer {
 
 .cart-sec .cart-dts .p-dts .prodcut-price {
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
@@ -1159,10 +1161,12 @@ footer {
 
 .cart-sec .cart-dts .p-dts .btm-part {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   border-top: 1px solid #ecedeb;
   padding-top: 16px;
   margin-top: auto;
+  gap: 14px;
 }
 
 .cart-sec .cart-dts .p-dts .btm-part .flex-box {
@@ -1178,6 +1182,10 @@ footer {
   gap: 5px;
   font-weight: normal;
   font-family: 'Bahij_SemiBold';
+}
+
+.cart-sec .cart-dts .p-dts .btm-part .p-quentity {
+  margin-top: 0;
 }
 
 .cart-sec .cart-dts .p-dts .btm-part .p-quentity select {
@@ -1295,6 +1303,7 @@ footer {
   font-family: 'Bahij_SemiBold';
   align-items: center;
   color: #181a20;
+  margin-bottom: 12px;
 }
 
 .totals-div .total-price p {
@@ -1308,37 +1317,14 @@ footer {
 }
 
 .totals-div .continue-checkout {
-  display: block;
   margin-top: 20px;
   text-align: center;
-  border-radius: 10px;
-  border: 1px solid #e36b57;
-  background: #e36b57;
-  color: #fff;
-  padding: 8px;
-  font-size: 17px;
-  font-family: 'Bahij_SemiBold';
-  transition: .3s;
   width: 100%;
-  cursor: pointer;
-}
-
-.totals-div .continue-checkout:hover {
-  background: unset;
-  color: #e36b57;
-}
-
-.totals-div .continue-checkout:disabled {
-  pointer-events: none;
-  opacity: .3;
 }
 
 .CartPage__disclaimer {
   margin-top: 20px;
-  display: flex;
-  gap: 8px;
-  color: #181a20;
-  justify-content: center;
+  text-align: center;
 }
 
 .tax-t {
@@ -1372,7 +1358,6 @@ footer {
   background: #fff;
   padding: 20px;
   padding-bottom: 40px;
-  margin-bottom: 20px;
   border-radius: 5px;
 }
 
@@ -1412,13 +1397,17 @@ footer {
   border: 1px solid #ededed;
 }
 
+.checkout-parts .right-part .btn-booknow {
+  min-width: 100px;
+}
+
 .choose-payment {
   display: none;
 }
 
 .choose-payment .list-payment {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin: 40px 0;
 }
@@ -1456,8 +1445,9 @@ footer {
 
 .choose-payment .list-payment .checkout-tab label img {
   height: 28px;
+  width: calc(100% - 34px);
   object-fit: contain;
-  width: 100%;
+  object-position: right;
 }
 
 .choose-payment .list-payment .checkout-tab input:checked+label {
@@ -1605,6 +1595,7 @@ footer {
   position: relative;
   top: 4px;
   font-size: 25px;
+  display: flex;
 }
 
 .checkout-parts .left-part .p-confirm a {
@@ -1645,8 +1636,8 @@ footer {
 
 .product-details .g-view .thumbs img {
   height: 100px;
-  width: 100%;
-  object-fit: contain;
+  margin: 0 auto;
+  display: block;
 }
 
 .product-details .g-view .thumbs .swiper-slide {
@@ -1675,9 +1666,10 @@ footer {
   border-top: 1px solid #ededed;
   padding-top: 25px;
   margin-top: 25px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 18px;
 }
 
@@ -1687,7 +1679,7 @@ footer {
   display: flex;
   gap: 8px;
   align-items: center;
-  color: #272a32;
+  color: #ea6f53;
   line-height: 34px;
   font-family: 'Bahij_SemiBold';
 }
@@ -1753,10 +1745,10 @@ footer {
 .p-quentity .qty-btn {
   border: 0;
   line-height: unset;
-  height: 36px;
-  width: 36px;
+  height: 32px;
+  width: 32px;
   padding: 0;
-  border-radius: 6px;
+  border-radius: 7px;
   background: #181a20;
   color: #fff;
   display: flex;
@@ -1767,7 +1759,7 @@ footer {
 }
 
 .p-quentity .input-qty {
-  width: 110px;
+  width: 95px;
   text-align: center;
   padding: 5px;
   outline: 0;
@@ -1797,7 +1789,6 @@ footer {
   font-weight: 700;
   font-size: 28px;
   line-height: 33px;
-  color: #000000;
   margin-bottom: 4px;
 }
 
@@ -1809,7 +1800,6 @@ footer {
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
-  color: #000000;
   margin-bottom: 30px;
 }
 
@@ -1817,8 +1807,6 @@ footer {
   font-weight: 400;
   font-size: 19px;
   line-height: 24px;
-  text-align: justify;
-  color: #000000;
   margin-bottom: 10px;
 }
 
@@ -1831,7 +1819,7 @@ footer {
 }
 
 .login-box {
-  width: 500px;
+  width: 430px;
   max-width: 100%;
   margin: 0 auto;
   padding: 20px;
@@ -1858,6 +1846,10 @@ footer {
   position: relative;
 }
 
+.login-box .password-div input {
+  padding-left: 40px;
+}
+
 .login-box .password-div i {
   position: absolute;
   left: 12px;
@@ -1881,18 +1873,3 @@ footer {
   margin-top: 20px;
   text-align: center;
 }
-
-/* abdo */
-@media (max-width:1280px) {
-
-}
-
-@media (max-width:992px) {}
-
-@media (max-width:768px) {}
-
-@media (max-width:576px) {}
-
-@media (max-width:450px) {}
-
-@media (max-width:375px) {}

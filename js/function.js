@@ -5,11 +5,6 @@
     $(".preloader").fadeOut(600);
   });
 
-  $(document).on("click", ".list-steps .form-step .btn-booknow", function () {
-    $(".list-steps .form-step").hide();
-    $(".list-steps .choose-payment").show();
-  });
-
   /* Animate with wow js */
   new WOW({ mobile: false }).init();
 
@@ -35,14 +30,6 @@
     watchSlidesProgress: true,
     centeredSlides: true,
     centeredSlidesBounds: true,
-    breakpoints: {
-      768: {
-        slidesPerView: 3,
-      },
-      320: {
-        slidesPerView: 2,
-      },
-    },
   });
 
   // view-img
@@ -64,26 +51,33 @@
   });
 
   // quentity
-  var buttonPlus = $(".qty-btn-plus");
-  var buttonMinus = $(".qty-btn-minus");
-  var incrementPlus = buttonPlus.click(function () {
-    var $n = $(this).parent(".p-quentity").find(".input-qty");
-    $n.val(Number($n.val()) + 1);
-  });
+  var buttons = $(".qty-btn-plus, .qty-btn-minus");
+  buttons.click(function () {
+    var $inputQty = $(this).parent(".p-quentity").find(".input-qty");
+    var amount = Number($inputQty.val());
 
-  var incrementMinus = buttonMinus.click(function () {
-    var $n = $(this).parent(".p-quentity").find(".input-qty");
-    var amount = Number($n.val());
-    if (amount > 1) {
-      $n.val(amount - 1);
+    if ($(this).hasClass("qty-btn-plus")) {
+      $inputQty.val(amount + 1);
+    } else if (amount > 1) {
+      $inputQty.val(amount - 1);
     }
   });
 
+  // toggle password
   $(".toggle-password").click(function () {
-      var passwordInput = $(this).parent().find("input");
-      var currentType = passwordInput.attr("type");
-      passwordInput.attr("type", currentType === "password" ? "text" : "password");
-      $(this).toggleClass("bi-eye-slash bi-eye");
+    var passwordInput = $(this).parent().find("input");
+    var currentType = passwordInput.attr("type");
+    passwordInput.attr(
+      "type",
+      currentType === "password" ? "text" : "password"
+    );
+    $(this).toggleClass("bi-eye-slash bi-eye");
+  });
+
+  // checkout
+  $(document).on("click", ".list-steps .form-step .btn-booknow", function () {
+    $(".list-steps .form-step").hide();
+    $(".list-steps .choose-payment").show();
   });
 
   // Count Up

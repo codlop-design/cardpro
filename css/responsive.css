@@ -27,6 +27,98 @@
   .related-product-info h3 {
     font-size: 30px;
   }
+
+}
+
+@media (max-width:1200px) {
+  .product-details .g-d-sec {
+    gap: 30px;
+  }
+
+  .product-details .g-view {
+    width: 400px;
+    min-width: 400px;
+  }
+
+  .product-details .main-dts .btn-booknow {
+    width: 100%;
+  }
+
+  .product-details .g-view .view-img img {
+    height: 310px;
+  }
+
+  .product-details .g-view .thumbs img {
+    height: 75px;
+  }
+
+  .cart-sec .cart-dts ul li {
+    gap: 16px;
+  }
+
+  .title-page {
+    margin-bottom: 30px;
+  }
+
+  .cart-sec .cart-dts .p-img img {
+    height: 100px;
+    min-width: 100px;
+  }
+
+  .cart-sec .cart-dts .p-dts>h4 {
+    margin-bottom: 10px;
+  }
+
+  .cart-sec .cart-dts .p-dts .btm-part {
+    padding-top: 12px;
+    margin-top: 16px;
+  }
+
+  .cart-sec .cart-dts .p-dts .prodcut-price .new-price {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .cart-sec .cart-dts .p-dts .prodcut-price {
+    gap: 12px;
+  }
+
+  .cart-sec .cart-dts .p-dts .prodcut-price .old-price b {
+    font-size: 16px;
+  }
+
+  .cart-sec .cart-total .totals-div,
+  .checkout-parts .left-part .totals-div {
+    padding: 20px;
+  }
+
+  .cart-sec .cart-total,
+  .checkout-parts .left-part {
+    width: 330px;
+    min-width: 330px;
+  }
+
+  .totals-div h5 {
+    font-size: 18px;
+  }
+
+  .totals-div .total-price {
+    font-size: 18px;
+  }
+
+  .totals-div .total-price p {
+    font-size: 19px;
+  }
+
+  .cart-sec {
+    gap: 20px;
+  }
+
+  .totals-div .continue-checkout {
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 8px;
+  }
 }
 
 @media (max-width:992px) {
@@ -113,6 +205,87 @@
     margin: 0 auto;
     margin-bottom: 35px;
   }
+
+  .product-details .g-view {
+    width: 295px;
+    min-width: 295px;
+  }
+
+  .product-details .g-view .view-img img {
+    height: 290px;
+  }
+
+  .product-details .g-view .thumbs img {
+    height: 60px;
+  }
+
+  .product-details .main-dts .p-price {
+    padding-top: 16px;
+    margin-top: 16px;
+    gap: 15px;
+  }
+
+  .product-details .main-dts .flex-box {
+    margin-bottom: 0;
+    margin-top: 35px;
+  }
+
+  .product-details .main-dts .flex-box .t-p {
+    font-size: 18px;
+  }
+
+  .product-details .main-dts .btn-booknow {
+    margin-top: 35px;
+  }
+
+  .more-product-dts .title {
+    font-size: 22px;
+  }
+
+  .product-details .main-dts .p-name {
+    font-size: 21px;
+    line-height: 30px;
+  }
+
+  .product-details .main-dts .p-price .n-price {
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .p-quentity {
+    margin-top: 12px;
+  }
+
+  .product-details .g-d-sec {
+    gap: 20px;
+  }
+
+  .title-page {
+    font-size: 25px;
+  }
+
+  .cart-sec {
+    flex-direction: column;
+  }
+
+  .cart-sec .cart-total,
+  .checkout-parts .left-part {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .checkout-parts {
+    gap: 16px;
+    flex-direction: column;
+  }
+
+  .checkout-parts .left-part .p-confirm i {
+    position: unset;
+  }
+
+  .checkout-parts .list-steps li h3 {
+    font-size: 20px;
+}
 
 }
 
@@ -227,6 +400,25 @@
   .flax-brands img {
     height: 90px;
   }
+
+  .product-details .g-d-sec {
+    gap: 45px;
+    flex-direction: column;
+  }
+
+  .product-details .g-view {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .title-page {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
 
 }
 
@@ -418,6 +610,49 @@
     height: 160px;
     margin-bottom: 16px;
   }
+
+  .login-box .login-heading h3 {
+    font-size: 22px;
+  }
+
+  .cart-sec .cart-dts .p-dts .prodcut-price .new-price {
+    font-size: 21px;
+  }
+
+  .cart-sec .cart-dts .p-dts .prodcut-price .new-price em {
+    font-size: 16px;
+  }
+
+  .cart-sec .cart-dts .p-dts .btm-part .flex-box {
+    gap: 10px;
+  }
+
+  .pd-page {
+    padding: 125px 0 70px;
+  }
+
+  .mb-3>label {
+    font-size: 15px;
+  }
+
+  .cart-sec .cart-total .totals-div,
+  .checkout-parts .left-part .totals-div {
+    padding: 16px;
+}
+
+.checkout-parts .list-steps li {
+  padding: 16px;
+  padding-bottom: 35px;
+}
+
+.checkout-parts .list-steps li .map-part .current-location-btn {
+  padding: 8px 15px;
+}
+
+.choose-payment .list-payment .checkout-tab label img {
+  height: 24px;
+}
+
 }
 
 @media (max-width:450px) {
@@ -429,10 +664,6 @@
   .left-nav .login-btn i {
     display: flex;
     font-size: 22px;
-  }
-
-  .container {
-    padding: 0 15px;
   }
 
   .header-content h2 {
@@ -468,5 +699,127 @@
   .number-people .count-box p span {
     height: 32px;
     line-height: 36px;
+  }
+
+  .feature-single h3 {
+    font-size: 40px;
+  }
+
+  .pd-page {
+    padding-bottom: 40px;
+    min-height: 300px;
+  }
+
+  .btn-booknow {
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+
+  .login-box .login-heading h3 {
+    font-size: 20px;
+  }
+
+  .login-box .login-heading p {
+    font-size: 16px;
+  }
+
+  .product-details .g-view .thumbs img {
+    height: 55px;
+  }
+
+  .product-details .g-view .view-img img {
+    height: 250px;
+  }
+
+  .product-details .main-dts .p-name {
+    font-size: 19px;
+  }
+
+  .product-details .main-dts .p-price {
+    margin-top: 10px;
+    row-gap: 8px;
+  }
+
+  .product-details .main-dts .p-price .n-price {
+    font-size: 27px;
+  }
+
+  .product-details .main-dts .flex-box {
+    margin-top: 20px;
+  }
+
+  .product-details .main-dts .flex-box .t-p {
+    font-size: 17px;
+  }
+
+  .p-quentity .qty-btn {
+    height: 28px;
+    width: 28px;
+    font-size: 21px;
+    padding-top: 4px;
+  }
+
+  .p-quentity .input-qty {
+    width: 70px;
+  }
+
+  .more-product-dts {
+    margin-top: 40px;
+  }
+
+  .more-product-dts .line {
+    margin-bottom: 20px;
+  }
+
+  .more-product-dts .title {
+    font-size: 20px;
+  }
+
+  .more-product-dts .desc,
+  .more-product-dts .desc p {
+    font-size: 16px;
+  }
+
+  .cart-sec .cart-dts ul li {
+    flex-direction: column;
+  }
+
+  .cart-sec .cart-dts .p-img img {
+    height: 160px;
+    min-width: unset;
+  }
+
+  .totals-div .continue-checkout {
+    padding: 7px;
+    font-size: 16px;
+  }
+
+  .checkout-parts .list-steps li h3 {
+    font-size: 19px;
+    margin-bottom: 16px;
 }
+
+.checkout-parts .left-part .products-list {
+  padding: 12px;
+}
+
+.left-part .products-list li .dts-prd h4 {
+  margin-bottom: 10px;
+}
+
+.choose-payment .list-payment {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 14px;
+  margin-top: 25px;
+}
+
+.form-control {
+  padding: 5px 10px;
+}
+
 }

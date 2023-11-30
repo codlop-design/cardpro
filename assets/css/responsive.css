@@ -1,6 +1,6 @@
 @media (max-width:1280px) {
   .banner {
-    padding: 190px 0 80px;
+    padding-top: 190px;
   }
 
   .slider-image img {
@@ -123,7 +123,7 @@
 
 @media (max-width:992px) {
   .banner {
-    padding: 165px 0 80px;
+    padding-top: 165px;
     min-height: unset;
   }
 
@@ -291,7 +291,7 @@
 
 @media (max-width:768px) {
   .banner {
-    padding: 140px 0 80px;
+    padding-top: 140px;
   }
 
   .header-content {
@@ -461,7 +461,7 @@
 
   .related-product {
     text-align: center;
-    padding: 45px 0 5px;
+    padding-top: 45px;
   }
 
   .section-title h2 {
@@ -586,12 +586,12 @@
     margin-top: 40px;
   }
 
-  .aboutus {
+  .products {
     padding-bottom: 30px;
   }
 
   .banner {
-    padding: 120px 0 60px;
+    padding: 120px 0 20px;
   }
 
   .related-single {
@@ -820,6 +820,14 @@
 
 .form-control {
   padding: 5px 10px;
+}
+
+.mt-7 {
+  margin-top: 40px;
+}
+
+.btn-booknow.mt-7 {
+  padding: 7px 25px;
 }
 
 }

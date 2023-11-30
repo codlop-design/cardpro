@@ -220,7 +220,7 @@ nav.navbar .navbar-toggler:focus {
   top: 0px;
   left: 0;
   width: 100%;
-  padding: 220px 0 80px;
+  padding: 220px 0 40px;
   min-height: 100vh;
   background: #181A20;
 }
@@ -347,12 +347,13 @@ nav.navbar .navbar-toggler:focus {
   font-weight: 500;
 }
 
-.aboutus {
+.products {
+  padding-top: 40px;
   padding-bottom: 80px;
   background: #181A20;
 }
 
-.aboutus .section-title {
+.products .section-title {
   margin-bottom: 45px;
 }
 
@@ -524,86 +525,6 @@ nav.navbar .navbar-toggler:focus {
 
 .testimonial-pagination .swiper-pagination-bullet-active {
   background: #f1734f;
-}
-
-/****************************************/
-/*****     08. Product area css     *****/
-/****************************************/
-
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.row.no-gutters>[class^="col-"],
-.row.no-gutters>[class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-.products .container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.product-single {
-  position: relative;
-}
-
-.product-image {
-  position: relative;
-}
-
-.product-image img {
-  width: 100%;
-}
-
-.product-image:before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #06122c;
-  opacity: 0.4;
-}
-
-.product-info {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 30px;
-  transition: all 0.3s ease-in-out;
-}
-
-.product-info h3 {
-  color: #fff;
-  font-size: 26px;
-  margin-bottom: 4px;
-}
-
-.product-info p {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 0;
-}
-
-.product-info p span {
-  color: #ffc600;
-}
-
-.product-info .btn-booknow {
-  padding: 6px 20px 5px;
-  font-size: 16px;
-  margin-top: 8px;
-}
-
-.product-single:hover .product-info {
-  padding-bottom: 50px;
 }
 
 /*******************************************/
@@ -931,10 +852,12 @@ footer {
 }
 
 
-.feature-box {}
-
 .feature-box .ft-box {
   text-align: center;
+}
+
+.feature-box [class^='col-']:last-child .ft-box {
+  margin-bottom: 0;
 }
 
 .feature-box .ft-box img {
@@ -1872,4 +1795,8 @@ footer {
   margin: 0;
   margin-top: 20px;
   text-align: center;
+}
+
+.mt-7 {
+  margin-top: 70px;
 }

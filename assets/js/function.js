@@ -76,8 +76,10 @@
 
   // checkout
   $(document).on("click", ".list-steps .form-step .btn-booknow", function () {
+    $("html, body").animate({ scrollTop: 0 }, 0);
     $(".list-steps .form-step").hide();
     $(".list-steps .choose-payment").show();
+
   });
 
   // Count Up

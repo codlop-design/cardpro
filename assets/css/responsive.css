@@ -628,7 +628,8 @@
   }
 
   .pd-page {
-    padding: 125px 0 70px;
+  margin-top: 97px;
+  min-height: calc(100vh - 366px);
   }
 
   .mb-3>label {
@@ -707,7 +708,6 @@
 
   .pd-page {
     padding-bottom: 40px;
-    min-height: 300px;
   }
 
   .btn-booknow {

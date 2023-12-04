@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cardpro</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/bootstrap-icons.css" rel="stylesheet" media="screen">
+  <link href="assets/css/swiper.min.css" rel="stylesheet">
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet" media="screen">
+  <link href="assets/css/responsive.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+  <div class="preloader">
+    <span class="loader">
+      <span class="loader-inner"></span>
+    </span>
+  </div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scrollspy main-menu">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" class="logo" alt=""></a>
+        </div>
+        <div class="left-nav">
+          <a href="#" class="btn lang">
+            <i class="bi bi-globe"></i>
+            EN
+          </a>
+          <a href="login.html" class="btn login-btn">
+            <i class="bi bi-person-circle"></i>
+            تسجيل الدخول
+          </a>
+          <a href="cart.html" class="btn cart-drop">
+            <span>0</span>
+            <i class="bi bi-cart"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="pd-page page-bg">
+    <div id="content" class="main__content_wrapper">
+      <nav class="woocommerce-breadcrumb">
+        <div class="container"><a href="index.html">الرئيسية</a>
+          <span class="delimiter">
+            <i class="bi bi-chevron-left"></i>
+          </span>
+          <span class="breadcrumb-current-title">حسابي</span>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="site-content-inner">
+          <div id="primary" class="content-area">
+            <main id="main" class="site-main">
+              <article class="page type-page status-publish hentry">
+                <header class="entry-header">
+                  <h3 class="entry-title title-page">
+                    الطلبات
+                  </h3>
+                </header>
+                <div class="entry-content">
+                  <div class="woocommerce account-page">
+                    <nav class="woocommerce-MyAccount-navigation list-pages">
+                      <ul>
+                        <li
+                          class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--dashboard is-active">
+                          <a href="my-account.html">لوحة التحكم</a>
+                        </li>
+                        <li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--orders">
+                          <a href="orders.html">الطلبات</a>
+                        </li>
+                        <li
+                          class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--downloads">
+                          <a href="#">التنزيلات</a>
+                        </li>
+                        <li
+                          class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--edit-address">
+                          <a href="edit-address.html">العنوان</a>
+                        </li>
+                        <li
+                          class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--edit-account">
+                          <a href="edit-account.html">تفاصيل الحساب</a>
+                        </li>
+                        <li
+                          class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--my-tickets">
+                          <a href="#">بطاقات الدعم الخاصة بي</a>
+                        </li>
+                        <li
+                          class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--new-ticket">
+                          <a href="#">فتح بطاقة دعم جديدة</a>
+                        </li>
+                        <li
+                          class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--following">
+                          <a href="#">الباعة</a>
+                        </li>
+                        <li
+                          class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--support-tickets">
+                          <a href="#">تذاكر دعم التاجر</a>
+                        </li>
+                        <li
+                          class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--customer-logout">
+                          <a href="login.html">تسجيل الخروج</a>
+                        </li>
+                      </ul>
+                    </nav>
+                    <div class="woocommerce-MyAccount-content content-account">
+                      <div class="woocommerce-notices-wrapper"></div>
+                      <ul class="orders-ul">
+                        <li>
+                          <div class="head-order">
+                            <p>
+                              تاريخ الطلب <span>
+                                <time datetime="2023-09-05T20:49:37+00:00">سبتمبر 5, 2023 - 20:49</time>
+                              </span>
+                            </p>
+                            <p>
+                              الإجمالي <span>
+                                <span class="woocommerce-Price-amount amount">2000.00&nbsp;<span
+                                    class="woocommerce-Price-currencySymbol">ر.س</span></span> لعنصر واحد </span>
+                            </p>
+                            <p>
+                              حالة الطلب <span>فشل في الدفع</span>
+                            </p>
+                            <p>
+                              الوقت المقدر للشحن <span>3 أيام - 8 سبتمبر، 2023</span>
+                            </p>
+                            <div class="left-head">
+                              <p>
+                                رقم الطلب <span>86503</span>
+                              </p>
+                              <p>
+                                <a href="#" class="cl-button pay">الدفع</a><a href="view-order.html" class="cl-button view">عرض</a><a
+                                  href="#" class="cl-button cancel">إلغاء</a><a href="#"
+                                  class="cl-button invoice">الفاتورة</a>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="body-order">
+                            <ul class="order-status">
+                              <li
+                                class="cl-front-order-status cl-front-order-status-wc-payment-card cl-front-order-status-color-green active">
+                                <p>
+                                  <em>
+                                    <i class="bi bi-check"></i>
+                                  </em>
+                                  <span>مدفوع</span>
+                                </p>
+                              </li>
+                              <li
+                                class="cl-front-order-status cl-front-order-status-wc-processing cl-front-order-status-color-green active">
+                                <p>
+                                  <em>
+                                    <i class="bi bi-check"></i>
+                                  </em>
+                                  <span>قيد التنفيذ</span>
+                                </p>
+                              </li>
+                              <li
+                                class="cl-front-order-status cl-front-order-status-wc-order-confirmed cl-front-order-status-color-green active">
+                                <p>
+                                  <em>
+                                    <i class="bi bi-check"></i>
+                                  </em>
+                                  <span>تم تأكيد الطلب</span>
+                                </p>
+                              </li>
+                              <li
+                                class="cl-front-order-status cl-front-order-status-wc-fail-payment cl-front-order-status-color-red active">
+                                <p>
+                                  <em>
+                                    <i class="bi bi-emoji-frown"></i>
+                                  </em>
+                                  <span>فشل في الدفع</span>
+                                </p>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                      <div
+                        class="woocommerce-pagination woocommerce-pagination--without-numbers woocommerce-Pagination">
+                        <a class="woocommerce-button woocommerce-button--next woocommerce-Button woocommerce-Button--next btn-booknow"
+                          href="#">التالي</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section starts -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-logo wow fadeInUp" data-wow-delay="0.4s">
+            <img src="assets/images/logo.png" alt="" />
+          </div>
+
+          <div class="footer-social">
+            <a href="#" class=" wow fadeInUp" data-wow-delay="0.4s"><i class="bi bi-facebook"></i></a>
+            <a href="#" class=" wow fadeInUp" data-wow-delay="0.6s"><i class="bi bi-instagram"></i></a>
+            <a href="#" class=" wow fadeInUp" data-wow-delay="0.8s"><i class="bi bi-youtube"></i></a>
+            <a href="#" class=" wow fadeInUp" data-wow-delay="1s"><i class="bi bi-twitter-x"></i></a>
+          </div>
+
+          <div class="footer-siteinfo wow fadeInUp" data-wow-delay="1.2s">
+            <p>Copyright &copy; 2023, cardpro by <a href="https://codlop.sa/ar" target="_blank">codlop</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/countdown.js"></script>
+  <script src="assets/js/function.js"></script>
+</body>
+
+</html>

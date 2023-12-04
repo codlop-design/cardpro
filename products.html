@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cardpro</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/bootstrap-icons.css" rel="stylesheet" media="screen">
+  <link href="assets/css/swiper.min.css" rel="stylesheet">
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet" media="screen">
+  <link href="assets/css/responsive.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+  <div class="preloader">
+    <span class="loader">
+      <span class="loader-inner"></span>
+    </span>
+  </div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scrollspy main-menu">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" class="logo" alt=""></a>
+        </div>
+        <div class="left-nav">
+          <a href="#" class="btn lang">
+            <i class="bi bi-globe"></i>
+            EN
+          </a>
+          <a href="login.html" class="btn login-btn">
+            <i class="bi bi-person-circle"></i>
+            تسجيل الدخول
+          </a>
+          <a href="cart.html" class="btn cart-drop">
+            <span>0</span>
+            <i class="bi bi-cart"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="pd-page page-bg">
+    <div id="content" class="main__content_wrapper">
+      <nav class="woocommerce-breadcrumb">
+        <div class="container"><a href="index.html">الرئيسية</a>
+          <span class="delimiter">
+            <i class="bi bi-chevron-left"></i>
+          </span>
+          <span class="breadcrumb-current-title">المنتجات</span>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="site-content-inner parts-page">
+          <div id="sidebar" class="sidebar" role="complementary">
+            <aside class="widget WOOF_Widget">
+              <div class="woof_container">
+                <div class="woof_container_inner woof_container_inner_">
+                  <h4>
+                    التصنيفات </h4>
+                  <ul class="ul-list">
+                    <li>
+                      <label for="1">
+                        <input id="1" class="checkbox-custom" type="checkbox" value="">
+                        <span>بطاقات</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label for="2">
+                        <input id="2" class="checkbox-custom" type="checkbox" value="">
+                        <span>كفرات</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label for="3">
+                        <input id="3" class="checkbox-custom" type="checkbox" value="">
+                        <span>ستاند</span>
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="woof_container">
+                <div class="woof_container_inner woof_container_inner_">
+                  <h4>
+                    التصنيفات </h4>
+                  <ul class="ul-list">
+                    <li>
+                      <label for="4">
+                        <input id="4" class="checkbox-custom" type="checkbox" value="">
+                        <span>بطاقات</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label for="5">
+                        <input id="5" class="checkbox-custom" type="checkbox" value="">
+                        <span>كفرات</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label for="6">
+                        <input id="6" class="checkbox-custom" type="checkbox" value="">
+                        <span>ستاند</span>
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="woof_container">
+                <div class="woof_container_inner woof_container_inner_">
+                  <h4>
+                    السعر </h4>
+                  <div class="woof_price_filter_txt_container">
+                    <div class="woof_price_filter_txt_from_wrap">
+                      <label class="woof_wcga_label_hide" for="">من</label>
+                      <input type="text" class="woof_price_filter_txt woof_price_filter_txt_from" placeholder=""
+                        step="10" min="0" max="20000" value="0">
+                    </div>
+                    <div class="woof_price_filter_txt_to_wrap">
+                      <label class="woof_wcga_label_hide" for="">الى</label>
+                      <input id="" type="text" class="woof_price_filter_txt woof_price_filter_txt_to" placeholder="الى"
+                        name="max_price" step="10" min="0" max="20000" value="0">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+          <div id="primary" class="content-area">
+            <main id="main" class="site-main">
+              <header class="page-header">
+                <h3 class="page-title title-page">بطاقات</h3>
+              </header>
+              <div class="shop-control-bar ps-categogy__wrapper">
+                <p class="woocommerce-result-count">
+                  عرض 1–20 من أصل 176 نتيجة</p>
+                <div class="ps-categogy__sort">
+                  <div class="handheld-sidebar-toggle"><button class="btn sidebar-toggler" type="button"><i
+                        class="bi bi-filter"></i><span>تصفية</span></button></div>
+                  <form class="woocommerce-ordering" method="get">
+                    <select name="orderby" class="orderby" aria-label="نظام المتجر">
+                      <option value="popularity">ترتيب حسب الشهرة</option>
+                      <option value="rating">ترتيب حسب معدل التقييم</option>
+                      <option value="date" selected="selected">ترتيب حسب الأحدث</option>
+                      <option value="price">ترتيب حسب: الأدنى سعراً للأعلى</option>
+                      <option value="price-desc">ترتيب حسب: الأعلى سعراً للأدنى</option>
+                    </select>
+                    <input type="hidden" name="paged" value="1">
+                  </form>
+                  <form method="POST" action="" class="form-codlop-wc-ppp"><select name="ppp"
+                      onchange="this.form.submit()" class="codlop-wc-wppp-select c-select">
+                      <option value="20" selected="selected">عرض 20</option>
+                      <option value="40">عرض 40</option>
+                      <option value="80">عرض 80</option>
+                      <option value="160">عرض 160</option>
+                      <option value="-1">عرض الكل</option>
+                    </select></form>
+                </div>
+              </div>
+
+              <div class="flex-package products-grid">
+                <div class="product">
+                  <a href="product-details.html"><img src="assets/images/package.png" alt=""></a>
+                  <div class="prices">
+                    <a href="product-details.html">1 x بطاقة تقييم ذكية</a>
+                    <p><s>قبل 300 ريال</s> - <b>150 ريال</b></p>
+                    <button class="add-cart">
+                      <i class="bi bi-cart"></i>
+                      اضف للسلة
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="product-details.html"><img src="assets/images/package.png" alt=""></a>
+                  <div class="prices">
+                    <a href="product-details.html">5 x بطاقة تقييم ذكية</a>
+                    <p><s>قبل 1,305 ريال</s> - <b>650 ريال</b></p>
+                    <button class="add-cart">
+                      <i class="bi bi-cart"></i>
+                      اضف للسلة
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="product-details.html"><img src="assets/images/package.png" alt=""></a>
+                  <div class="prices">
+                    <a href="product-details.html">10 x بطاقة تقييم ذكية</a>
+                    <p><s>قبل 2,010 ريال</s> - <b>1000 ريال</b></p>
+                    <button class="add-cart">
+                      <i class="bi bi-cart"></i>
+                      اضف للسلة
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="product-details.html"><img src="assets/images/package.png" alt=""></a>
+                  <div class="prices">
+                    <a href="product-details.html">25 x بطاقة تقييم ذكية</a>
+                    <p><s>قبل 4,050 ريال</s> - <b>2000 ريال</b></p>
+                    <button class="add-cart">
+                      <i class="bi bi-cart"></i>
+                      اضف للسلة
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="product-details.html"><img src="assets/images/package.png" alt=""></a>
+                  <div class="prices">
+                    <a href="product-details.html">1 x بطاقة تقييم ذكية</a>
+                    <p><s>قبل 300 ريال</s> - <b>150 ريال</b></p>
+                    <button class="add-cart">
+                      <i class="bi bi-cart"></i>
+                      اضف للسلة
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <a href="product-details.html"><img src="assets/images/package.png" alt=""></a>
+                  <div class="prices">
+                    <a href="product-details.html">5 x بطاقة تقييم ذكية</a>
+                    <p><s>قبل 1,305 ريال</s> - <b>650 ريال</b></p>
+                    <button class="add-cart">
+                      <i class="bi bi-cart"></i>
+                      اضف للسلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="shop-control-bar-bottom">
+                <nav class="woocommerce-pagination">
+                  <ul class="page-numbers">
+                    <li><span aria-current="page" class="page-numbers current">1</span></li>
+                    <li><a class="page-numbers" href="">2</a></li>
+                    <li><a class="page-numbers" href="">3</a></li>
+                    <li><span class="page-numbers dots">…</span></li>
+                    <li><a class="page-numbers" href="">9</a></li>
+                    <li><a class="next page-numbers" href="">←</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </main>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section starts -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-logo wow fadeInUp" data-wow-delay="0.4s">
+            <img src="assets/images/logo.png" alt="" />
+          </div>
+
+          <div class="footer-social">
+            <a href="#" class=" wow fadeInUp" data-wow-delay="0.4s"><i class="bi bi-facebook"></i></a>
+            <a href="#" class=" wow fadeInUp" data-wow-delay="0.6s"><i class="bi bi-instagram"></i></a>
+            <a href="#" class=" wow fadeInUp" data-wow-delay="0.8s"><i class="bi bi-youtube"></i></a>
+            <a href="#" class=" wow fadeInUp" data-wow-delay="1s"><i class="bi bi-twitter-x"></i></a>
+          </div>
+
+          <div class="footer-siteinfo wow fadeInUp" data-wow-delay="1.2s">
+            <p>Copyright &copy; 2023, cardpro by <a href="https://codlop.sa/ar" target="_blank">codlop</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/countdown.js"></script>
+  <script src="assets/js/function.js"></script>
+</body>
+
+</html>

@@ -1,9 +1,9 @@
 (function ($) {
   "use strict";
   /* Preloader */
-  $(window).on("load", function () {
-    $(".preloader").fadeOut(600);
-  });
+ $(window).on("load", function () {
+  $(".preloader").fadeOut(600);
+   });
 
   /* Animate with wow js */
   new WOW({ mobile: false }).init();

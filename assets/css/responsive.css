@@ -359,6 +359,9 @@
 }
 
 @media (max-width:768px) {
+  .account-page .list-pages ul li a{
+    font-size: 17px !important;
+  }
   .orders-ul .order-status li p em i{
     font-size: 25px;
     width: 24px;
@@ -377,12 +380,7 @@
     margin-bottom: 0;
     padding-top: 0;
 }
-  .account-page .list-pages ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 8px;
-  }
+  
   .account-page .btn-booknow{
     margin-top: 5px;
   }
@@ -554,6 +552,12 @@
 }
 
 @media (max-width:576px) {
+  .orders-ul li .head-order {
+  gap: 15px;
+  }
+  .account-page .list-pages ul li a{
+    font-size: 17px;
+  }
   .account-page .content-account .list-addresses{
     grid-template-columns: 1fr;
   }
@@ -572,15 +576,13 @@
 }
   .account-page .btn-booknow {
 
-font-size: 16px;
-
 margin: auto;
 }
   .account-page .list-pages ul li a:before{
     font-size: 20px;
   }
   .account-page{
-    gap: 10px;
+    gap: 30px;
   }
   .edit-account legend{
     font-size: 18px;

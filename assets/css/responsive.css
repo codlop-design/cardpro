@@ -1,4 +1,13 @@
+
 @media (max-width:1280px) {
+  .account-page{
+    gap: 25px;
+  }
+  .orders-ul li .head-order {
+    gap: 20px;
+  }
+
+ 
   .banner {
     padding-top: 190px;
   }
@@ -31,6 +40,23 @@
 }
 
 @media (max-width:1200px) {
+  /* .orders-ul li .head-order {} */
+
+  .orders-ul li .head-order .left-head a {
+   
+    padding-left: 5px;
+    margin-left: 5px;
+}
+  .orders-ul li .head-order {
+    gap: 2px;
+    padding: 5px;
+}
+  .orders-ul li .head-order p{
+    font-size: 15px;
+  }
+  .error__content--title{
+    font-size: 25px;
+      }
   .product-details .g-d-sec {
     gap: 30px;
   }
@@ -122,6 +148,49 @@
 }
 
 @media (max-width:992px) {
+  .orders-ul li .head-order .left-head p{
+    justify-content: start;
+  }
+  .orders-ul li .head-order{
+    flex-wrap: wrap;
+    gap: 13px;
+    padding: 9px;
+    justify-content: space-between;
+  }
+  .orders-ul li .head-order .left-head{
+    margin-right: unset;
+    margin-left: auto;
+  }
+  .body-order {
+    padding: 10px;
+  }
+
+  .login-box .btn-booknow {
+    width: unset;
+  }
+
+  .account-page .list-pages ul li a:before{
+    font-size: 24px;
+  }
+  .account-page{
+    gap: 25px;
+  }
+  .account-page .list-pages{
+    min-width: 250px;
+    width: 250px;
+ 
+  }
+  .edit-account legend{
+    font-size: 20px;
+  }
+  .account-page .list-pages ul li a{
+    gap: 8px;
+    padding: 10px 5px;
+    font-size: 17px;
+  }
+  .error__content--title{
+    font-size: 22.5px;
+      }
   .banner {
     padding-top: 165px;
     min-height: unset;
@@ -290,6 +359,68 @@
 }
 
 @media (max-width:768px) {
+  .orders-ul .order-status li p em i{
+    font-size: 25px;
+    width: 24px;
+    height: 24px;
+  }
+  .orders-ul .order-status li p em{
+    width: 35px;
+    height: 35px;
+  }
+  .account-page .content-account .ps-form__group .ps-form__input{
+    border-radius: 5px;
+  }
+  .account-page .list-pages ul li:last-child {
+    border-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+  .account-page .list-pages ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 8px;
+  }
+  .account-page .btn-booknow{
+    margin-top: 5px;
+  }
+  .page .entry-content{
+    padding: 0;
+  }
+  .pd-page {
+    padding-bottom: 40px;
+   
+}
+  .account-page .list-pages{
+    padding-left: 10px;
+    width: 100%;
+    border-left: 0;
+  }
+  .account-page .list-pages ul li a:before{
+    font-size: 22px;
+  }
+  .account-page{
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .edit-account legend{
+    font-size: 19px;
+  }
+  .account-page .list-pages ul li a{
+    font-size: 16px;
+  }
+  .error__content--title{
+    font-size: 20px;
+      }
+      .error__content--desc{
+        font-size: 17px !important;
+      }
+      .error__content--img{
+        margin-bottom: 20px;
+        max-height: 200px;
+      }
   .banner {
     padding-top: 140px;
   }
@@ -423,6 +554,47 @@
 }
 
 @media (max-width:576px) {
+  .account-page .content-account .list-addresses{
+    grid-template-columns: 1fr;
+  }
+  .account-page .content-account .list-addresses li .default--btns .default-adrs{
+    padding: 4px 7px;
+  }
+  .account-page .content-account .list-addresses li .dts-add label{
+    font-size: 17px;
+  }
+  .entry-content p{
+    font-size: 15px;
+  }
+  .account-page .content-account .list-addresses li .dts-add address {
+ 
+    font-size: 15px;
+}
+  .account-page .btn-booknow {
+
+font-size: 16px;
+
+margin: auto;
+}
+  .account-page .list-pages ul li a:before{
+    font-size: 20px;
+  }
+  .account-page{
+    gap: 10px;
+  }
+  .edit-account legend{
+    font-size: 18px;
+  }
+  .error__content--title{
+    font-size: 19px;
+      }
+      .error__content--desc{
+        font-size: 16px !important;
+      }
+      .error__content--img{
+     
+        max-height: 180px;
+      }
   .header-content h2 {
     font-size: 30px;
   }
@@ -657,6 +829,68 @@
 }
 
 @media (max-width:450px) {
+  .orders-ul li .head-order p{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .orders-ul li .head-order .left-head a {
+    padding-left: 15px;
+    margin-left: 15px;
+}
+  .orders-ul li .head-order .left-head p{
+    justify-content: center;
+  }
+  .orders-ul li .head-order .left-head {
+    margin: auto;
+  
+}
+  .orders-ul li .head-order {
+  flex-direction: column;
+  padding: 5px;
+  }
+ 
+  .entry-content p {
+    font-size: 14px;
+}
+  .orders-ul .order-status li p em{
+    width: 30px;
+    height: 30px;
+  }
+  .orders-ul .order-status li p em i{
+    width: 20px;
+    height: 20px;
+    font-size: 19px;
+  }
+  .account-page .content-account .list-addresses li .dts-add label{
+    font-size: 16px;
+  }
+  .account-page .list-pages{
+    padding-left: 0;
+  }
+  .account-page .list-pages ul li a{
+    gap: 4px;
+    font-size: 15px;
+  }
+  .account-page .list-pages ul{
+    gap: 4px !important;
+  }
+  .account-page .list-pages ul li a:before{
+    font-size: 19px;
+  }
+  .edit-account legend{
+    font-size: 17px;
+  }
+  .error__content--title{
+    font-size: 17px;
+      }
+      .error__content--desc{
+        font-size: 15px !important;
+      }
+      .error__content--img{
+     
+        max-height: 160px;
+      }
   .left-nav .login-btn {
     font-size: 0;
     gap: 0;
@@ -712,7 +946,7 @@
 
   .btn-booknow {
     padding: 7px;
-    font-size: 16px;
+    font-size: 15px;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
